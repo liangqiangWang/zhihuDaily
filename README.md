@@ -14,3 +14,12 @@
 Android-Universal-Image-Loader
 android-async-http
 
+![image](https://github.com/liangqiangWang/zhihuDaily/blob/master/ScreenShots/Screenshot_20160904-223747.png)
+
+
+
+![image](https://github.com/liangqiangWang/zhihuDaily/blob/master/ScreenShots/Screenshot_20160904-223803.png)
+
+
+
+![image](https://github.com/liangqiangWang/zhihuDaily/blob/master/ScreenShots/Screenshot_20160904-223810.png)
