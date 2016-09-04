@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.StartUP">
+
+    <ImageView
+        android:id="@+id/start_image"
+        android:layout_above="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="false"
+        />
+    <LinearLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/start_text1"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="      知乎日报"
+            android:textSize="20dp"
+            android:gravity="center_vertical"
+            android:textColor="#FFFF"
+            android:background="@color/dark_menu_listview_background"/>
+
+    <TextView
+        android:id="@+id/start_text2"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="        每天三次，每次7分钟"
+        android:textColorHighlight="@color/light_news_topic"
+        android:gravity="center_vertical"
+        android:textColor="#FFFF"
+        android:background="@color/dark_menu_listview_background"/>
+    </LinearLayout>
+</RelativeLayout>
